@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="./media/hoteltitlelogo-removebg-preview.png">
+    <title>Hostily - Luxury Hotel Booking HTML5 Template</title>
+    <link rel="stylesheet" href="./css/hotel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./media/hotellogo.png" alt="">
+        </div>
+        <div class="navbar">
+            <div class="nav a">
+                <a href="">Home</a>
+                <div class="drop">
+                    <div class="down">
+                        <a href="javascript:void(0);">Home 01</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Home 02</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Home 03</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav b"><a href="">Pages</a>
+                <div class="drop">
+                    <div class="down">
+                        <a href="">About</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Team</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Services Details</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Coming Soon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav c"><a href="">Room</a>
+                <div class="drop">
+                    <div class="down">
+                        <a href="">Room Style</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Room Modern</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Room List</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Room Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav d"><a href="">Blog</a>
+                <div class="drop">
+                    <div class="down">
+                        <a href="">Blog Grid</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Blog Standard</a>
+                    </div>
+                    <hr>
+                    <div class="down">
+                        <a href="">Blog Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav2">Contact</div>
+        </div>
+        <div class="btn">
+            <button><a href="">BOOK NOW <i class="fa-solid fa-arrow-right-long"></i></a></button>
+        </div>
+    </div>
+
+    <section class="home">
+        <!-- <div class="homewrap">
+            <div class="home-title">
+                <h1>The Best Hotel </h1>
+                <div class="play">
+                    <a href="https://www.youtube.com/watch?v=0WC-tD-njcA"><i class="fa-solid fa-play"></i></a>
+                    <span>Deals
+                        in the World</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item">
+                <p>Check In <input type="date"></p>
+            </div>
+            <div class="item">
+                <p>Check Out <input type="date"></p>
+            </div>
+            <div class="item">
+                <p>Room </p>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <button><a href="">CHECK NOW</a></button>
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="banner-title">
+                        <h1>The Best Hotel<span>Deals in the World</span></h1>
+                        <div class="banner-title-video">
+                            <div class="play">
+                                <a class="video-popup" href="https://www.youtube.com/watch?v=0WC-tD-njcA"><i
+                                        class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="check-area">
+                        <div class="check-item">
+                            <p>Check In<input id="date" type="date"></p>
+                        </div>
+                        <div class="check-item">
+                            <p>Check Out<input id="date2" type="date"></p>
+                        </div>
+                        <div class="check-item">
+                            <div class="check-item-room">
+                                <p>Room</p>
+                            </div>
+                        </div>
+                        <button><a href="">CHECK NOW</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="descript">
+                        <div class="menu-descript">
+                            <span>Accommodations</span>
+                            <h2>Welcome Our Hotels And Resorts</h2>
+                            <p>Savvy travelers are looking for more than just the next destination on the map. They are
+                                looking
+                                for a memorable experience and to make new friends along the way.</p>
+                            <div class="btn-2">
+                                <button><a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="menu-img">
+                        <img class="menuimg1" src="./media/hotelmenu1.jpg" alt="">
+                        <img class="menuimg2" src="./media/hotelmenu2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="deluxe-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="deluxe-title">
+                        <span>Deluxe And Luxury</span>
+                        <h2>Our Luxury Rooms</h2>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="deluxe-btn">
+                        <ul>
+                            <li>All Rooms</li>
+                            <li>Luxury</li>
+                            <li>Luxury</li>
+                            <li>Small Suite</li>
+                            <li>Family</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="deluxe-img">
+                        <div class="col-descript a2">
+                            <h6><span>$134 </span>/ Night</h6>
+                            <h5>Small Suite</h5>
+                            <a class="simple-btn" href="contact.html"><i
+                                    class="fa-solid fa-circle-chevron-right"></i></i> Booking Now</a>
+                        </div>
+                        <img src="./media/luxury-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="deluxe-img2">
+                        <div class="col-descript">
+                            <h6><span>$199 </span>/ Night</h6>
+                            <h5>Deluxe Room</h5>
+                            <a class="simple-btn" href="contact.html"><i
+                                    class="fa-solid fa-circle-chevron-right"></i></i> Booking Now</a>
+                        </div>
+                        <img src="./media/luxury-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="deluxe-img">
+                        <div class="col-descript">
+                            <h6><span>$319 </span>/ Night</h6>
+                            <h5>Family Room </h5>
+                            <a class="simple-btn" href="contact.html"><i
+                                    class="fa-solid fa-circle-chevron-right"></i></i> Booking Now</a>
+                        </div>
+                        <img src="./media/luxury-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="deluxe-img2">
+                        <div class="col-descript">
+                            <h6><span>$169</span>/ Night</h6>
+                            <h5>Single Room</h5>
+                            <a class="simple-btn" href="contact.html"><i
+                                    class="fa-solid fa-circle-chevron-right"></i></i> Booking Now</a>
+                        </div>
+                        <img src="./media/luxury-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="deluxe-img2 last-deluxe-img2">
+                        <div class="col-descript">
+                            <h6><span>$249 </span>/ Night</h6>
+                            <h5>Luxury Room</h5>
+                            <a class="simple-btn" href="contact.html"><i
+                                    class="fa-solid fa-circle-chevron-right"></i></i> Booking Now</a>
+                        </div>
+                        <img src="./media/luxury-5.jpg" class="last-deluxe-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="video_area">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <div class="video-title">
+                        <h2>Book hotel rooms, get deals & book flights online.</h2>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="video-right">
+                        <div class="play">
+                            <a href="https://www.youtube.com/watch?v=0WC-tD-njcA"><i class="fa-solid fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="service-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="./media/servicecleaning.png" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h5>
+                                <a href="">Room Cleaning</a>
+                            </h5>
+                            <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="./media/servicewifi.png" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h5>
+                                <a href="">Room Wifi</a>
+                            </h5>
+                            <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <img src="./media/servicelocation.png" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h5>
+                                <a href="">Pickup & Drop</a>
+                            </h5>
+                            <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="feature-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="feature-image">
+                        <img src="./media/feature-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="feature-content">
+                        <span>Our Food</span>
+                        <h2>Restaurant Silo</h2>
+                        <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet
+                            lectus porta,</p>
+                        <div class="btn-2">
+                            <button><a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row second">
+                <div class="col-6 sd1">
+                    <div class="feature-content">
+                        <span>Read Our Books</span>
+                        <h2>The Library</h2>
+                        <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet
+                            lectus porta,</p>
+                        <div class="btn-2">
+                            <button><a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6  s-img">
+                    <div class="feature-image">
+                        <img src="./media/feature-img2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row third">
+                <div class="col-6">
+                    <div class="feature-image">
+                        <img src="./media/feature-img3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="feature-content">
+                        <span>Fitness Equipment
+                        </span>
+                        <h2>Exercise equipment</h2>
+                        <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet
+                            lectus porta,</p>
+                        <div class="btn-2">
+                            <button><a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row second">
+                <div class="col-6 sd1">
+                    <div class="feature-content">
+                        <span>Experiences</span>
+                        <h2>Swimming Pool</h2>
+                        <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet
+                            lectus porta,</p>
+                        <div class="btn-2">
+                            <button><a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 s-img">
+                    <div class="feature-image">
+                        <img src="./media/feature-img4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="customer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="customer-item">
+                        <div class="customer-img">
+                            <img src="./media/customer-1.jpg" alt="">
+                        </div>
+                        <div class="customer-content">
+                            <h4>David Beckham</h4>
+                            <span>UX Designer</span>
+                            <p>Proin massa augue, lacinia at blandit ac, fringilla scelerisque tortor. Mauris sit amet
+                                lectus porta, porta lectus non, malesuada neque. Integer in tempus leo. Quisque
+                                vitae leo ac ex suscipit iaculis eu in nisl. Donec vestibulum volutpat lectus, vel
+                                aliquet massa porttitor in. Integer eleifend</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog-title">
+                        <span>Our Blog</span>
+                        <h2>Read Our Blog amd News</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="blog-content">
+                        <div class="blog-detail">
+                            <div class="bloghead">
+                                <h3>27</h3>
+                                <span>July 2022</span>
+                            </div>
+                            <div class="blogmenu">
+                                <p>The ultimate guide to finding the best hotels in your area.</p>
+                            </div>
+                        </div>
+                        <div class="blog-btn">
+                            <a class="simple-btn-2" href="blog-details.html">Read More<i
+                                    class="fa-solid fa-arrow-right-long"></i></i></a>
+                        </div>
+                        <img src="./media/blog-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blog-content">
+                        <div class="blog-detail">
+                            <div class="bloghead">
+                                <h3>27</h3>
+                                <span>July 2022</span>
+                            </div>
+                            <div class="blogmenu">
+                                <p>Book a room Today most Affordable Rates.</p>
+                            </div>
+                        </div>
+                        <div class="blog-btn">
+                            <a class="simple-btn-2" href="blog-details.html">Read More<i
+                                    class="fa-solid fa-arrow-right-long"></i></i></a>
+                        </div>
+                        <img src="./media/blog-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blog-content">
+                        <div class="blog-detail">
+                            <div class="bloghead">
+                                <h3>27</h3>
+                                <span>July 2022</span>
+                            </div>
+                            <div class="blogmenu">
+                                <p>Hotel Booking is the best choice for hotel booking.</p>
+                            </div>
+                        </div>
+                        <div class="blog-btn">
+                            <a class="simple-btn-2" href="blog-details.html">Read More<i
+                                    class="fa-solid fa-arrow-right-long"></i></i></a>
+                        </div>
+                        <img src="./media/blog-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-1">
+                        <div class="footer-img">
+                            <img src="./media/hotellogo.png" alt="">
+                        </div>
+                        <p>Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus tempus</p>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-behance"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5>Information</h5>
+                    <div class="footer-contact">
+                        <div class="footer-fline">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div class="footer-content">
+                                <span><a href="#">GXF4+8HQ Chippenham United Kingdom</a></span>
+                            </div>
+                        </div>
+                        <div class="footer-fline">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <div class="footer-content">
+                                <span><a href="#">help.info@gamil.com</a></span>
+                            </div>
+                        </div>
+                        <div class="footer-fline ">
+                            <div class="footer-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="footer-content">
+                                <span><a href="#">+123 (458) 585 568</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h5>Pages Links</h5>
+                    <div class="footer-contact">
+                        <ul>
+                            <li><a href="services-details.html"><i class="fa-solid fa-angles-right"></i> Room
+                                    Cleaning</a></li>
+                            <li><a href="services-details.html"><i class="fa-solid fa-angles-right"></i> Car Parking</a>
+                            </li>
+                            <li><a href="services-details.html"><i class="fa-solid fa-angles-right"></i> Swimming
+                                    pool</a></li>
+                            <li><a href="services-details.html"><i class="fa-solid fa-angles-right"></i> Fitness Gym</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h5>Subscribe</h5>
+                    <div class="footer-subscribe">
+                        <form action="#">
+                            <input type="text" name="email" placeholder="Email Address" required>
+
+                            <button type="submit"><i class="fa-solid fa-hand-pointer"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="copyright-left">
+                            <p>Copyright © 2022 <a href="https://themeforest.net/user/themeori/portfolio">ThemeOri</a>
+                                Website by <a href="index.html">Hostily</a></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="copyright-right">
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#" class="last-li">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
